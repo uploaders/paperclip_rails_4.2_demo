@@ -37,6 +37,11 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (6.0.0.beta1)
+    aws-sdk (1.55.0)
+      aws-sdk-v1 (= 1.55.0)
+    aws-sdk-v1 (1.55.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
     builder (3.2.2)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -49,6 +54,10 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    dotenv (1.0.1)
+    dotenv-rails (1.0.1)
+      dotenv (= 1.0.1)
+    eefgilm (1.1.2)
     erubis (2.7.0)
     execjs (2.2.1)
     globalid (0.3.0)
@@ -136,7 +145,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk
   coffee-rails
+  dotenv-rails
+  eefgilm
   jbuilder
   jquery-rails
   paperclip
