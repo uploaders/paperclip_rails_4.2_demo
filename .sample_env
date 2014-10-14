@@ -1,0 +1,6 @@
+S3_BUCKET_NAME: yourbucketname
+AWS_ACCESS_KEY_ID: youraccesskeyhere
+AWS_SECRET_ACCESS_KEY: yoursecretkeyhere
+
+//Delete this line, and rename this file to '.env'. Be sure to use the dotenv or
+figaro gem.

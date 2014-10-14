@@ -1,0 +1,22 @@
+Documentation:
+  Enabled: false
+
+AllCops:
+  RunRailsCops: true
+  Include:
+    - Gemfile
+    - lib/tasks/*
+  Exclude:
+    - db/schema.rb
+    - vendor/**/*
+    - config/initializers/devise.rb
+    - db/migrate/*
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Lint/HandleExceptions:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
