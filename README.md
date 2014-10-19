@@ -81,4 +81,11 @@ In config/environments add the following in each environment you want image uplo
   Paperclip.options[:command_path] = '/usr/local/bin/'
   ```
 
-And you are ready to upload images to your Rails 4.2 app! Happy coding!
+And you are ready to upload images to your Rails 4.2 app! Check out the example
+screenshots below. Happy coding!
+
+**Uploading Image**
+![Uploading local image](http://dl.dropbox.com/s/qb5y8xsok9s1a85/Screen%20Shot%202014-10-19%20at%203.20.59%20PM.png?dl=0)
+
+**Confirmation**
+![Image uploaded](http://dl.dropbox.com/s/pdu56vqdas238be/Screen%20Shot%202014-10-19%20at%203.21.31%20PM.png?dl=0)
